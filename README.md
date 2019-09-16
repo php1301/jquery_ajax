@@ -15,8 +15,11 @@ git status
   git commit -m "Ghi chú"
 //Đẩy code từ máy tính lên server 
   git push origin <tên nhánh>
+// kiem tra nhanh dang dung
+  git branch
 // doi branch
-  git checkout doi branch
-// git pull
-  keo ve file da pulled
-  // giai quyet xung dot
+  git checkout
+// keo cap nhat code moi ve
+  git pull
+// giai quyet xung dot => tron code
+  git merge <ten nhanh>
