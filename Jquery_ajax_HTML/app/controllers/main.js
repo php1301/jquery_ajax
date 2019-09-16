@@ -15,7 +15,9 @@ $(document).ready(function(){
         console.log(this.mangNguoiDung);
     }
         // taoBang();
-  
+        function themNguoiDung(){
+            console.log("them nguoi dung 2");
+        }
     $("#btnThemNguoiDung").click(function(){
        console.log(113);
        $(".modal-title").html("Thêm Người Dùng");
